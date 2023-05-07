@@ -1,0 +1,97 @@
+
+body{
+    background-color: #000;
+}
+.container{
+    text-align: center;
+}
+.image h1{
+    color: orangered;
+    margin-top: 30px;
+    font-family: sans-serif;
+    font-weight: 600;
+}
+.image img{
+    width: 50%;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    border: 2px solid orangered;
+    
+}
+.text p{
+    color: white;
+    font-weight: 700;
+}
+.text span{
+    color: white;
+}
+/* ...cards.... */
+.card{
+    color: white;
+    width: 120px;
+    height: 100px;
+    border: 2px solid white;
+    text-align: center;
+    border-radius: 5px;
+    background-color: blanchedalmond;
+    transition: width 2s;
+}
+.card:hover{
+    background-color: rgb(210, 84, 39);
+    width:100px;
+     
+}
+.one:hover{
+    color: white;
+}
+.card h1{
+    color: orangered;
+    }
+    .card p{
+        color: black;
+    }
+.cards{
+    margin-top: 40px;
+    margin-left: 320px;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    width: 400px;
+    gap: 15px;
+}
+/* ........btn....... */
+.btn{
+    color: #000;
+    background-color: beige;
+    margin-top: 50px;
+    margin-left: 540px;
+    border: none;
+    border-radius: 3px;
+    padding: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   
+}
+.fa-regular{
+    color: #000;
+}
+/* .......footer.......... */
+footer{
+    background-color: grey;
+    margin-top: 20px;
+    width: 100%;
+    height: 70px;
+}
+footer{
+    padding-top: 30px;
+
+text-align: center;
+}
+ footer a{
+   
+    color: #000;
+   
+    text-align: center;
+  
+    text-decoration: none;
+   
+}
